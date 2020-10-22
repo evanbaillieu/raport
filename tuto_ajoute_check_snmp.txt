@@ -1,0 +1,326 @@
+
+ajouter le mibs au fichier /usr/share/snmp/mibs
+https://dl.ubnt.com/firmwares/airos-ubnt-mib/ubnt-mib.zip \\lien du mibs
+ajouter aussi le mibs a centreon
+Configuration  >  SNMP Traps  >  MIBs
+suivre le tuto pour l'installation de nagios:
+https://quick-tutoriel.com/creer-une-sonde-dans-centreon/
+
+suivre le reste des instrugetion 
+
+tout se que nous retourne le utilisable
+
+Name, OID, Type, Value
+sysDescr.0, .1.3.6.1.2.1.1.1.0, OctetString, Linux 2.6.32.71 #1 Thu May 23 12:54:43 EEST 2019 mi s
+sysObjectID.0, .1.3.6.1.2.1.1.2.0, OID, ubntAirMAX
+sysUpTime.0, .1.3.6.1.2.1.1.3.0, TimeTicks, 3559 hours 35 minutes 43 seconds (1281454300)
+sysContact.0, .1.3.6.1.2.1.1.4.0, OctetString, 192.168.1.69
+sysName.0, .1.3.6.1.2.1.1.5.0, OctetString, WLan_Bureau
+sysLocation.0, .1.3.6.1.2.1.1.6.0, OctetString, Bureau citeos
+sysServices.0, .1.3.6.1.2.1.1.7.0, Integer, 79
+null, .1.3.6.1.2.1.1.8.0, TimeTicks, 27 hours 20 minutes 15 seconds (9841500)
+snmpInPkts.0, .1.3.6.1.2.1.11.1.0, Counter32, 2660
+snmpOutPkts.0, .1.3.6.1.2.1.11.2.0, Counter32, 2440
+snmpInBadVersions.0, .1.3.6.1.2.1.11.3.0, Counter32, 131
+snmpInBadCommunityNames.0, .1.3.6.1.2.1.11.4.0, Counter32, 78
+snmpInBadCommunityUses.0, .1.3.6.1.2.1.11.5.0, Counter32, 0
+snmpInASNParseErrs.0, .1.3.6.1.2.1.11.6.0, Counter32, 10
+snmpInTooBigs.0, .1.3.6.1.2.1.11.8.0, Counter32, 0
+snmpInNoSuchNames.0, .1.3.6.1.2.1.11.9.0, Counter32, 0
+snmpInBadValues.0, .1.3.6.1.2.1.11.10.0, Counter32, 0
+snmpInReadOnlys.0, .1.3.6.1.2.1.11.11.0, Counter32, 0
+snmpInGenErrs.0, .1.3.6.1.2.1.11.12.0, Counter32, 0
+snmpInTotalReqVars.0, .1.3.6.1.2.1.11.13.0, Counter32, 107
+snmpInTotalSetVars.0, .1.3.6.1.2.1.11.14.0, Counter32, 0
+snmpInGetRequests.0, .1.3.6.1.2.1.11.15.0, Counter32, 157
+snmpInGetNexts.0, .1.3.6.1.2.1.11.16.0, Counter32, 2362
+snmpInSetRequests.0, .1.3.6.1.2.1.11.17.0, Counter32, 0
+snmpInGetResponses.0, .1.3.6.1.2.1.11.18.0, Counter32, 0
+snmpInTraps.0, .1.3.6.1.2.1.11.19.0, Counter32, 0
+snmpOutTooBigs.0, .1.3.6.1.2.1.11.20.0, Counter32, 0
+snmpOutNoSuchNames.0, .1.3.6.1.2.1.11.21.0, Counter32, 132
+snmpOutBadValues.0, .1.3.6.1.2.1.11.22.0, Counter32, 0
+snmpOutGenErrs.0, .1.3.6.1.2.1.11.24.0, Counter32, 0
+snmpOutGetRequests.0, .1.3.6.1.2.1.11.25.0, Counter32, 0
+snmpOutGetNexts.0, .1.3.6.1.2.1.11.26.0, Counter32, 0
+snmpOutSetRequests.0, .1.3.6.1.2.1.11.27.0, Counter32, 0
+snmpOutGetResponses.0, .1.3.6.1.2.1.11.28.0, Counter32, 2441
+snmpOutTraps.0, .1.3.6.1.2.1.11.29.0, Counter32, 0
+snmpEnableAuthenTraps.0, .1.3.6.1.2.1.11.30.0, Integer, disabled (2)
+ubntORIndex.1, .1.3.6.1.4.1.41112.1.1.1.1.1, Integer, 1
+ubntORID.1, .1.3.6.1.4.1.41112.1.1.1.2.1, OID, ubntAirMAX
+ubntORDescr.1, .1.3.6.1.4.1.41112.1.1.1.3.1, OctetString, airOS MIB
+ubntRadioIndex.1, .1.3.6.1.4.1.41112.1.4.1.1.1.1, Integer, 5
+ubntRadioMode.1, .1.3.6.1.4.1.41112.1.4.1.1.2.1, Integer, apwds (4)
+ubntRadioCCode.1, .1.3.6.1.4.1.41112.1.4.1.1.3.1, Integer, 250
+ubntRadioFreq.1, .1.3.6.1.4.1.41112.1.4.1.1.4.1, Integer, 5185
+ubntRadioDfsEnabled.1, .1.3.6.1.4.1.41112.1.4.1.1.5.1, Integer, false (2)
+ubntRadioTxPower.1, .1.3.6.1.4.1.41112.1.4.1.1.6.1, Integer, 7
+ubntRadioDistance.1, .1.3.6.1.4.1.41112.1.4.1.1.7.1, Integer, 1050
+ubntRadioChainmask.1, .1.3.6.1.4.1.41112.1.4.1.1.8.1, Integer, 3
+ubntRadioAntenna.1, .1.3.6.1.4.1.41112.1.4.1.1.9.1, OctetString, Built in - 16 dBi
+ubntRadioRssiIndex.1.1, .1.3.6.1.4.1.41112.1.4.2.1.1.1.1, Integer, 1
+ubntRadioRssiIndex.1.2, .1.3.6.1.4.1.41112.1.4.2.1.1.1.2, Integer, 2
+ubntRadioRssi.1.1, .1.3.6.1.4.1.41112.1.4.2.1.2.1.1, Integer, 0
+ubntRadioRssi.1.2, .1.3.6.1.4.1.41112.1.4.2.1.2.1.2, Integer, 0
+ubntRadioRssiMgmt.1.1, .1.3.6.1.4.1.41112.1.4.2.1.3.1.1, Integer, 0
+ubntRadioRssiMgmt.1.2, .1.3.6.1.4.1.41112.1.4.2.1.3.1.2, Integer, 0
+ubntRadioRssiExt.1.1, .1.3.6.1.4.1.41112.1.4.2.1.4.1.1, Integer, 0
+ubntRadioRssiExt.1.2, .1.3.6.1.4.1.41112.1.4.2.1.4.1.2, Integer, 0
+ubntAirSyncIfIndex.1, .1.3.6.1.4.1.41112.1.4.3.1.1.1, Integer, 5
+ubntAirSyncMode.1, .1.3.6.1.4.1.41112.1.4.3.1.2.1, Integer, disabled (0)
+ubntAirSyncCount.1, .1.3.6.1.4.1.41112.1.4.3.1.3.1, Integer, 0
+ubntAirSyncDownUtil.1, .1.3.6.1.4.1.41112.1.4.3.1.4.1, Integer, 0
+ubntAirSyncUpUtil.1, .1.3.6.1.4.1.41112.1.4.3.1.5.1, Integer, 0
+ubntAirSelIfIndex.1, .1.3.6.1.4.1.41112.1.4.4.1.1.1, Integer, 5
+ubntAirSelEnabled.1, .1.3.6.1.4.1.41112.1.4.4.1.2.1, Integer, false (2)
+ubntAirSelInterval.1, .1.3.6.1.4.1.41112.1.4.4.1.3.1, Integer, 1000
+ubntWlStatIndex.1, .1.3.6.1.4.1.41112.1.4.5.1.1.1, Integer, 5
+ubntWlStatSsid.1, .1.3.6.1.4.1.41112.1.4.5.1.2.1, OctetString, UWSA95gMqnUx
+ubntWlStatHideSsid.1, .1.3.6.1.4.1.41112.1.4.5.1.3.1, Integer, true (1)
+ubntWlStatApMac.1, .1.3.6.1.4.1.41112.1.4.5.1.4.1, OctetString, 04-18-D6-5E-69-12
+ubntWlStatSignal.1, .1.3.6.1.4.1.41112.1.4.5.1.5.1, Integer, -96
+ubntWlStatRssi.1, .1.3.6.1.4.1.41112.1.4.5.1.6.1, Integer, 0
+ubntWlStatCcq.1, .1.3.6.1.4.1.41112.1.4.5.1.7.1, Integer, 0
+ubntWlStatNoiseFloor.1, .1.3.6.1.4.1.41112.1.4.5.1.8.1, Integer, -105
+ubntWlStatTxRate.1, .1.3.6.1.4.1.41112.1.4.5.1.9.1, Integer, 0
+ubntWlStatRxRate.1, .1.3.6.1.4.1.41112.1.4.5.1.10.1, Integer, 0
+ubntWlStatSecurity.1, .1.3.6.1.4.1.41112.1.4.5.1.11.1, OctetString, WPA2
+ubntWlStatWdsEnabled.1, .1.3.6.1.4.1.41112.1.4.5.1.12.1, Integer, true (1)
+ubntWlStatApRepeater.1, .1.3.6.1.4.1.41112.1.4.5.1.13.1, Integer, false (2)
+ubntWlStatChanWidth.1, .1.3.6.1.4.1.41112.1.4.5.1.14.1, Integer, 40
+ubntWlStatStaCount.1, .1.3.6.1.4.1.41112.1.4.5.1.15.1, Gauge, 0
+ubntAirMaxIfIndex.1, .1.3.6.1.4.1.41112.1.4.6.1.1.1, Integer, 5
+ubntAirMaxEnabled.1, .1.3.6.1.4.1.41112.1.4.6.1.2.1, Integer, true (1)
+ubntAirMaxQuality.1, .1.3.6.1.4.1.41112.1.4.6.1.3.1, Integer, 0
+ubntAirMaxCapacity.1, .1.3.6.1.4.1.41112.1.4.6.1.4.1, Integer, 0
+ubntAirMaxPriority.1, .1.3.6.1.4.1.41112.1.4.6.1.5.1, Integer, none (3)
+ubntAirMaxNoAck.1, .1.3.6.1.4.1.41112.1.4.6.1.6.1, Integer, false (2)
+
+
+//les iod que l'on garde 
+
+Name, OID, Type, Value
+sysUpTime.0, .1.3.6.1.2.1.1.3.0, TimeTicks, 1511 hours 47 minutes 53 seconds (544247300)
+ubntRadioFreq.1, .1.3.6.1.4.1.41112.1.4.1.1.4.1, Integer, 5185
+ubntRadioTxPower.1, .1.3.6.1.4.1.41112.1.4.1.1.6.1, Integer, 4
+ubntWlStatSignal.1, .1.3.6.1.4.1.41112.1.4.5.1.5.1, Integer, -63
+ubntWlStatRssi.1, .1.3.6.1.4.1.41112.1.4.5.1.6.1, Integer, 33
+ubntWlStatNoiseFloor.1, .1.3.6.1.4.1.41112.1.4.5.1.8.1, Integer, -89
+ubntStaConnTime.1.24.232.41.218.53.234, .1.3.6.1.4.1.41112.1.4.7.1.15, TimeTicks, 318 hours 56 minutes 45 seconds (114820500)
+sysName.0, .1.3.6.1.2.1.1.5.0, OctetString, ANT_UBNT_038_C29
+ubntGpsLat.0, .1.3.6.1.4.1.41112.1.4.9.3.0, OctetString, 49.451246
+ubntGpsLon.0, .1.3.6.1.4.1.41112.1.4.9.4.0, OctetString, 1.098330
+ubntRadioMode.1, .1.3.6.1.4.1.41112.1.4.1.1.2.1, Integer, apwds (4)
+ubntRadioAntenna.1, .1.3.6.1.4.1.41112.1.4.1.1.9.1, OctetString, NBE-5AC-G2
+ubntWlStatSsid.1, .1.3.6.1.4.1.41112.1.4.5.1.2.1, OctetString, 5HGM1VVCZSZEI04QQVDO
+ubntWlStatApMac.1, .1.3.6.1.4.1.41112.1.4.5.1.4.1, OctetString, 18-E8-29-DA-35-D5
+ubntWlStatSecurity.1, .1.3.6.1.4.1.41112.1.4.5.1.11.1, OctetString, WPA2
+ubntStaMac.1.24.232.41.218.53.234, .1.3.6.1.4.1.41112.1.4.7.1.1, OctetString, 18-E8-29-DA-35-EA
+ubntStaName.1.24.232.41.218.53.234, .1.3.6.1.4.1.41112.1.4.7.1.2, OctetString, ANT_UBNT_C29
+ubntStaLastIp.1.24.232.41.218.53.234, .1.3.6.1.4.1.41112.1.4.7.1.10, IpAddress, 10.4.100.3
+
+creation de la structure airos centreon pour avoir a implement 1 seule template
+pour mieux comprendre je suis partie de l'exitant os-linux-snmp-custom
+
+commencer par cree un hote template:
+
+//template OS-Airos-SNMP
+
+servicetemplate{
+	Alias: "check-snmp-custome",
+	name:  "OS-Airos-SNMP"
+	Check_Command: {
+		Command_name: "Check-snmp",
+		Command_type: "check",
+		command_line: "$NAGIOSPLUGINS$/check_snmp -H $HOSTADDRESS$ -o $_SERVICEIOD$"
+		macros_Descriptions: "MACRO (SERVICE) IOD : :"
+	}
+}
+
+//template host OS-Airos-SNMP-Custom
+
+hots_template{
+	name: "OS-Airos-SNMP-Custom",
+	alias: "Template to check Airos server using SNMP protocol",
+	liked service templates:[
+	{
+		alias: "check-snmp-freq",
+		name: "OS-Airos-SNMP-Freq-custome,
+		template: OS-Airos-snmp,
+		IOD: .1.3.6.1.4.1.41112.1.4.1.1.4.1,
+		Check_Period: 24*7,
+		max_check_attempts: 5,
+		normal_check_interval: 5,
+	},
+	{
+		alias: "check-snmp-gpslat",
+		name: "OS-Airos-SNMP-Gps-Lat-custome",
+		template: OS-Airos-snmp,
+		IOD: .1.3.6.1.4.1.41112.1.4.1.1.7.1,
+		Check_Period: 24*7,
+		max_check_attempts: 5,
+		normal_check_interval: 5,
+	},
+	{
+		alias: "check-snmp-Antenna",
+		name: "OS-Airos-SNMP-antenna-custome",
+		template: OS-Airos-snmp,
+		IOD:  .1.3.6.1.4.1.41112.1.4.1.1.9.1,
+		Check_Period: 24*7,
+		max_check_attempts: 5,
+		normal_check_interval: 5,
+	},
+	{
+		alias: "check-snmp-gpslon",
+		name: "OS-Airos-SNMP-Gps-Lon-custome",
+		template: OS-Airos-snmp,
+		IOD:  .1.3.6.1.4.1.41112.1.4.9.4.0,
+		Check_Period: 24*7,
+		max_check_attempts: 5,
+		normal_check_interval: 5,
+	},
+	{
+		alias: "check-snmp-Radio-Mode",
+		name: "OS-Airos-SNMP-Radio-Mode-custome",
+		template: OS-Airos-snmp,
+		IOD:   .1.3.6.1.4.1.41112.1.4.1.1.2.1,
+		Check_Period: 24*7,
+		max_check_attempts: 5,
+		normal_check_interval: 5,
+	},
+	{
+		alias: "check-snmp-sta-mac",
+		name: "OS-Airos-SNMP-Sta-Mac-custome",
+		template: OS-Airos-snmp,
+		IOD:  .1.3.6.1.4.1.41112.1.4.7.1.1,
+		Check_Period: 24*7,
+		max_check_attempts: 5,
+		normal_check_interval: 5,
+	},
+	{
+		alias: "check-snmp-sta-last-ip",
+		name: "OS-Airos-SNMP-Sta-Last-Ip-custome",
+		template: OS-Airos-snmp,
+		IOD: .1.3.6.1.4.1.41112.1.4.7.1.10,
+		Check_Period: 24*7,
+		max_check_attempts: 5,
+		normal_check_interval: 5,
+	},
+	{
+		alias: "check-snmp-sta-name",
+		name: "OS-Airos-SNMP-Sta-Name-custome",
+		template: OS-Airos-snmp,
+		IOD:  .1.3.6.1.4.1.41112.1.4.7.1.2,
+		Check_Period: 24*7,
+		max_check_attempts: 5,
+		normal_check_interval: 5,
+	},
+	{
+		alias: "check-snmp-stat-apmac",
+		name: "OS-Airos-SNMP-Stat-Ap-Mac-custome",
+		template: OS-Airos-snmp,
+		IOD:  .1.3.6.1.4.1.41112.1.4.5.1.4.1,
+		Check_Period: 24*7,
+		max_check_attempts: 5,
+		normal_check_interval: 5,
+	},
+	{
+		alias: "check-snmp-stat-contime",
+		name: "OS-Airos-SNMP-Stat-ConnTime-custome",
+		template: OS-Airos-snmp,
+		IOD:  .1.3.6.1.4.1.41112.1.4.7.1.15.1,
+		Check_Period: 24*7,
+		max_check_attempts: 5,
+		normal_check_interval: 5,
+	},
+	{
+		alias: "check-snmp-stat-noise-floor",
+		name: "OS-Airos-SNMP-Stat-Noise-Floor-custome",
+		template: OS-Airos-snmp,
+		IOD:  .1.3.6.1.4.1.41112.1.4.5.1.8.1,
+		Check_Period: 24*7,
+		max_check_attempts: 5,
+		normal_check_interval: 5,
+	},
+	{
+		alias: "check-snmp-stat-rssi",
+		name: "OS-Airos-SNMP-Stat-Rssi-custome",
+		template: OS-Airos-snmp,
+		IOD:  .1.3.6.1.4.1.41112.1.4.5.1.5.1,
+		Check_Period: 24*7,
+		max_check_attempts: 5,
+		normal_check_interval: 5,
+	},
+	{
+		alias: "check-snmp-stat-security",
+		name: "OS-Airos-SNMP-Stat-Security-custome",
+		template: OS-Airos-snmp,
+		IOD:  .1.3.6.1.4.1.41112.1.4.5.1.11.1,
+		Check_Period: 24*7,
+		max_check_attempts: 5,
+		normal_check_interval: 5,
+	},
+	{
+		alias: "check-snmp-stat-signal",
+		name: "OS-Airos-SNMP-Stat-Signal-custome",
+		template: OS-Airos-snmp,
+		IOD:  .1.3.6.1.4.1.41112.1.4.5.1.5.1,
+		Check_Period: 24*7,
+		max_check_attempts: 5,
+		normal_check_interval: 5,
+	},
+	{
+		alias: "check-snmp-Stat-Ssid",
+		name: "OS-Airos-SNMP-Stat-Ssid",
+		template: OS-Airos-snmp,
+		IOD:  .1.3.6.1.4.1.41112.1.4.5.1.2.1,
+		Check_Period: 24*7,
+		max_check_attempts: 5,
+		normal_check_interval: 5,
+	},
+	{
+		alias: "check-snmp-sys-name",
+		name: "OS-Airos-SNMP-Sys-Name-custome",
+		template: OS-Airos-snmp,
+		IOD:  .1.3.6.1.2.1.1.5.0,
+		Check_Period: 24*7,
+		max_check_attempts: 5,
+		normal_check_interval: 5,
+	},
+	{
+		alias: "check-snmp-sys-up-time",
+		name: "OS-Airos-SNMP-Sys-Up-Time-custome",
+		template: OS-Airos-snmp,
+		IOD:  .1.3.6.1.2.1.1.3.0,
+		Check_Period: 24*7,
+		max_check_attempts: 5,
+		normal_check_interval: 5,
+	},
+	{
+		alias: "check-snmp-txpower",
+		name: "OS-Airos-SNMP-TxPower-custome",
+		template: OS-Airos-snmp,
+		IOD:  .1.3.6.1.4.1.41112.1.4.1.1.6.1,
+		Check_Period: 24*7,
+		max_check_attempts: 5,
+		normal_check_interval: 5,
+	},
+	{
+		alias: "check-snmp-sysDescr",
+		name: "OS-Airos-SNMP-sysDescr-custome",
+		template: OS-Airos-snmp,
+		IOD:   .1.3.6.1.2.1.1.1.0,
+		Check_Period: 24*7,
+		max_check_attempts: 5,
+		normal_check_interval: 5,
+	}],
+	Create_Services_linked_to_the_Template_too: true
+}
+
+/* a la fin verifier que que les link se son bien fait sinon les faire Configuration  >  Hosts  >  antenne > relatons */
+
+https://exchange.nagios.org/
+https://nagios-plugins.org/doc/guidelines.html#NEWPLUGINS
+
+./check_snmp -H 192.168.1.251 -o .1.3.6.1.4.1.41112.1.4.7.1.15
