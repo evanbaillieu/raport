@@ -287,7 +287,7 @@ pour antenne AirmuxRAD
 
 hots_template{
 	name: "OS-AirmuxRAD-SNMP-Custom",
-	alias: "Template to check Airos server using SNMP protocol",
+	alias: "Template to check AirmuxRAD server using SNMP protocol",
 	liked service templates:[
 	{
 		alias: "radwllMilOduAirCurrentFreq",
@@ -395,10 +395,10 @@ hots_template{
 
 	},
 	{
-		alias: "check-snmp-sys-up-time",
-		name: "OS-Airos-SNMP-Sys-Up-Time-custome",
-		template: OS-Airos-snmp,
-		OID:  .1.3.6.1.2.1.1.3.0,
+		alias: "radwllMilOduAdmBatterySavingShutdownTime",
+		name: "OS-AirmuxRAD-SNMP-shutdown-Time-custome",
+		template: OS-AirmuxRAD-snmp,
+		OID:  .3.6.1.4.1.4458.1000.1.1.40,
 
 	},
 	{
@@ -423,16 +423,18 @@ hots_template{
 
 	},
 	{
-		alias: "check-snmp-sysDescr",
-		name: "OS-Airos-SNMP-sysDescr-custome",
+		alias: "check-snmp-sys-up-time",
+		name: "OS-AirmuxRAD-SNMP-Sys-Up-Time-custome",
 		template: OS-Airos-snmp,
-		OID:   .1.3.6.1.2.1.1.1.0,
+		OID:   .1.3.6.1.2.1.1.3,
+
+	},
+	{
+		alias: "check-snmp-sysDescr",
+		name: "OS-AirmuxRAD-SNMP-sysDescr-custome",
+		template: OS-Airos-snmp,
+		OID:   .1.3.6.1.2.1.1.1,
 
 	}],
 	Create_Services_linked_to_the_Template_too: true
 }
-
-
-
-
-
