@@ -284,6 +284,575 @@ https://nagios-plugins.org/doc/guidelines.html#NEWPLUGINS
 
 pour antenne AirmuxRAD
 
+Name, OID, Type, Value
+sysDescr.0, .1.3.6.1.2.1.1.1.0, OctetString, Wireless Link
+sysObjectID.0, .1.3.6.1.2.1.1.2.0, OID, odu2KIntegratedAntenna
+sysUpTime.0, .1.3.6.1.2.1.1.3.0, TimeTicks, 3 hours 51 minutes 7 seconds (1386700)
+sysContact.0, .1.3.6.1.2.1.1.4.0, OctetString, Person
+sysName.0, .1.3.6.1.2.1.1.5.0, OctetString, Name
+sysLocation.0, .1.3.6.1.2.1.1.6.0, OctetString, Location
+sysServices.0, .1.3.6.1.2.1.1.7.0, Integer, 2
+ifNumber.0, .1.3.6.1.2.1.2.1.0, Integer, 2
+ifIndex.1, .1.3.6.1.2.1.2.2.1.1.1, Integer, 1
+ifIndex.101, .1.3.6.1.2.1.2.2.1.1.101, Integer, 101
+ifDescr.1, .1.3.6.1.2.1.2.2.1.2.1, OctetString, Management Port on Odu
+ifDescr.101, .1.3.6.1.2.1.2.2.1.2.101, OctetString, Radio Interface
+ifType.1, .1.3.6.1.2.1.2.2.1.3.1, Integer, ethernetCsmacd (6)
+ifType.101, .1.3.6.1.2.1.2.2.1.3.101, Integer, sonet (39)
+ifMtu.1, .1.3.6.1.2.1.2.2.1.4.1, Integer, 2047
+ifMtu.101, .1.3.6.1.2.1.2.2.1.4.101, Integer, 2047
+ifSpeed.1, .1.3.6.1.2.1.2.2.1.5.1, Gauge, 1000000000
+ifSpeed.101, .1.3.6.1.2.1.2.2.1.5.101, Gauge, 0
+ifPhysAddress.1, .1.3.6.1.2.1.2.2.1.6.1, OctetString, 00-15-67-E4-75-34
+ifPhysAddress.101, .1.3.6.1.2.1.2.2.1.6.101, OctetString, 00-15-67-DE-2F-E9
+ifAdminStatus.1, .1.3.6.1.2.1.2.2.1.7.1, Integer, up (1)
+ifAdminStatus.101, .1.3.6.1.2.1.2.2.1.7.101, Integer, up (1)
+ifOperStatus.1, .1.3.6.1.2.1.2.2.1.8.1, Integer, up (1)
+ifOperStatus.101, .1.3.6.1.2.1.2.2.1.8.101, Integer, down (2)
+ifLastChange.1, .1.3.6.1.2.1.2.2.1.9.1, Counter32, 0
+ifLastChange.101, .1.3.6.1.2.1.2.2.1.9.101, Counter32, 0
+ifInOctets.1, .1.3.6.1.2.1.2.2.1.10.1, Counter32, 5152897
+ifInOctets.101, .1.3.6.1.2.1.2.2.1.10.101, Counter32, 0
+ifInUcastPkts.1, .1.3.6.1.2.1.2.2.1.11.1, Counter32, 11733
+ifInUcastPkts.101, .1.3.6.1.2.1.2.2.1.11.101, Counter32, 0
+ifInNUcastPkts.1, .1.3.6.1.2.1.2.2.1.12.1, Counter32, 5777
+ifInNUcastPkts.101, .1.3.6.1.2.1.2.2.1.12.101, Counter32, 0
+ifInDiscards.1, .1.3.6.1.2.1.2.2.1.13.1, Counter32, 0
+ifInDiscards.101, .1.3.6.1.2.1.2.2.1.13.101, Counter32, 0
+ifInErrors.1, .1.3.6.1.2.1.2.2.1.14.1, Counter32, 0
+ifInErrors.101, .1.3.6.1.2.1.2.2.1.14.101, Counter32, 0
+ifInUnknownProtos.1, .1.3.6.1.2.1.2.2.1.15.1, Counter32, 0
+ifInUnknownProtos.101, .1.3.6.1.2.1.2.2.1.15.101, Counter32, 0
+ifOutOctets.1, .1.3.6.1.2.1.2.2.1.16.1, Counter32, 4992226
+ifOutOctets.101, .1.3.6.1.2.1.2.2.1.16.101, Counter32, 0
+ifOutUcastPkts.1, .1.3.6.1.2.1.2.2.1.17.1, Counter32, 0
+ifOutUcastPkts.101, .1.3.6.1.2.1.2.2.1.17.101, Counter32, 0
+ifOutNUcastPkts.1, .1.3.6.1.2.1.2.2.1.18.1, Counter32, 11744
+ifOutNUcastPkts.101, .1.3.6.1.2.1.2.2.1.18.101, Counter32, 0
+ifOutDiscards.1, .1.3.6.1.2.1.2.2.1.19.1, Counter32, 0
+ifOutDiscards.101, .1.3.6.1.2.1.2.2.1.19.101, Counter32, 0
+ifOutErrors.1, .1.3.6.1.2.1.2.2.1.20.1, Counter32, 0
+ifOutErrors.101, .1.3.6.1.2.1.2.2.1.20.101, Counter32, 0
+ifOutQLen.1, .1.3.6.1.2.1.2.2.1.21.1, Counter32, 0
+ifOutQLen.101, .1.3.6.1.2.1.2.2.1.21.101, Counter32, 0
+null, .1.3.6.1.2.1.31.1.1.1.1.1, OctetString, Management Port on Odu
+null, .1.3.6.1.2.1.31.1.1.1.1.101, OctetString, Radio Interface
+radwllMilOduAdmProductType.0, .1.3.6.1.4.1.4458.1000.1.1.1.0, OctetString, WL_ODU_1580_I_T_0
+radwllMilOduAdmHwRev.0, .1.3.6.1.4.1.4458.1000.1.1.2.0, OctetString, 4
+radwllMilOduAdmSwRev.0, .1.3.6.1.4.1.4458.1000.1.1.3.0, OctetString, 2.8.20_b2997_Aug 12 2013
+radwllMilOduAdmLinkName.0, .1.3.6.1.4.1.4458.1000.1.1.4.0, OctetString, Link
+radwllMilOduAdmResetCmd.0, .1.3.6.1.4.1.4458.1000.1.1.5.0, Integer, 0
+radwllMilOduAdmAddres.0, .1.3.6.1.4.1.4458.1000.1.1.6.0, IpAddress, 10.0.0.120
+radwllMilOduAdmMask.0, .1.3.6.1.4.1.4458.1000.1.1.7.0, IpAddress, 255.0.0.0
+radwllMilOduAdmGateway.0, .1.3.6.1.4.1.4458.1000.1.1.8.0, IpAddress, 0.0.0.0
+radwllMilOduAdmHostsIndex.1, .1.3.6.1.4.1.4458.1000.1.1.12.1.1.1, Integer, 1
+radwllMilOduAdmHostsIndex.2, .1.3.6.1.4.1.4458.1000.1.1.12.1.1.2, Integer, 2
+radwllMilOduAdmHostsIndex.3, .1.3.6.1.4.1.4458.1000.1.1.12.1.1.3, Integer, 3
+radwllMilOduAdmHostsIndex.4, .1.3.6.1.4.1.4458.1000.1.1.12.1.1.4, Integer, 4
+radwllMilOduAdmHostsIndex.5, .1.3.6.1.4.1.4458.1000.1.1.12.1.1.5, Integer, 5
+radwllMilOduAdmHostsIndex.6, .1.3.6.1.4.1.4458.1000.1.1.12.1.1.6, Integer, 6
+radwllMilOduAdmHostsIndex.7, .1.3.6.1.4.1.4458.1000.1.1.12.1.1.7, Integer, 7
+radwllMilOduAdmHostsIndex.8, .1.3.6.1.4.1.4458.1000.1.1.12.1.1.8, Integer, 8
+radwllMilOduAdmHostsIndex.9, .1.3.6.1.4.1.4458.1000.1.1.12.1.1.9, Integer, 9
+radwllMilOduAdmHostsIndex.10, .1.3.6.1.4.1.4458.1000.1.1.12.1.1.10, Integer, 10
+radwllMilOduAdmHostsIp.1, .1.3.6.1.4.1.4458.1000.1.1.12.1.2.1, IpAddress, 0.0.0.0
+radwllMilOduAdmHostsIp.2, .1.3.6.1.4.1.4458.1000.1.1.12.1.2.2, IpAddress, 0.0.0.0
+radwllMilOduAdmHostsIp.3, .1.3.6.1.4.1.4458.1000.1.1.12.1.2.3, IpAddress, 0.0.0.0
+radwllMilOduAdmHostsIp.4, .1.3.6.1.4.1.4458.1000.1.1.12.1.2.4, IpAddress, 0.0.0.0
+radwllMilOduAdmHostsIp.5, .1.3.6.1.4.1.4458.1000.1.1.12.1.2.5, IpAddress, 0.0.0.0
+radwllMilOduAdmHostsIp.6, .1.3.6.1.4.1.4458.1000.1.1.12.1.2.6, IpAddress, 0.0.0.0
+radwllMilOduAdmHostsIp.7, .1.3.6.1.4.1.4458.1000.1.1.12.1.2.7, IpAddress, 0.0.0.0
+radwllMilOduAdmHostsIp.8, .1.3.6.1.4.1.4458.1000.1.1.12.1.2.8, IpAddress, 0.0.0.0
+radwllMilOduAdmHostsIp.9, .1.3.6.1.4.1.4458.1000.1.1.12.1.2.9, IpAddress, 0.0.0.0
+radwllMilOduAdmHostsIp.10, .1.3.6.1.4.1.4458.1000.1.1.12.1.2.10, IpAddress, 0.0.0.0
+radwllMilOduAdmHostsPort.1, .1.3.6.1.4.1.4458.1000.1.1.12.1.3.1, Integer, 162
+radwllMilOduAdmHostsPort.2, .1.3.6.1.4.1.4458.1000.1.1.12.1.3.2, Integer, 162
+radwllMilOduAdmHostsPort.3, .1.3.6.1.4.1.4458.1000.1.1.12.1.3.3, Integer, 162
+radwllMilOduAdmHostsPort.4, .1.3.6.1.4.1.4458.1000.1.1.12.1.3.4, Integer, 162
+radwllMilOduAdmHostsPort.5, .1.3.6.1.4.1.4458.1000.1.1.12.1.3.5, Integer, 162
+radwllMilOduAdmHostsPort.6, .1.3.6.1.4.1.4458.1000.1.1.12.1.3.6, Integer, 162
+radwllMilOduAdmHostsPort.7, .1.3.6.1.4.1.4458.1000.1.1.12.1.3.7, Integer, 162
+radwllMilOduAdmHostsPort.8, .1.3.6.1.4.1.4458.1000.1.1.12.1.3.8, Integer, 162
+radwllMilOduAdmHostsPort.9, .1.3.6.1.4.1.4458.1000.1.1.12.1.3.9, Integer, 162
+radwllMilOduAdmHostsPort.10, .1.3.6.1.4.1.4458.1000.1.1.12.1.3.10, Integer, 162
+radwllMilOduAdmHostsSecurityModel.1, .1.3.6.1.4.1.4458.1000.1.1.12.1.4.1, Integer, snmpv1 (1)
+radwllMilOduAdmHostsSecurityModel.2, .1.3.6.1.4.1.4458.1000.1.1.12.1.4.2, Integer, snmpv1 (1)
+radwllMilOduAdmHostsSecurityModel.3, .1.3.6.1.4.1.4458.1000.1.1.12.1.4.3, Integer, snmpv1 (1)
+radwllMilOduAdmHostsSecurityModel.4, .1.3.6.1.4.1.4458.1000.1.1.12.1.4.4, Integer, snmpv1 (1)
+radwllMilOduAdmHostsSecurityModel.5, .1.3.6.1.4.1.4458.1000.1.1.12.1.4.5, Integer, snmpv1 (1)
+radwllMilOduAdmHostsSecurityModel.6, .1.3.6.1.4.1.4458.1000.1.1.12.1.4.6, Integer, snmpv1 (1)
+radwllMilOduAdmHostsSecurityModel.7, .1.3.6.1.4.1.4458.1000.1.1.12.1.4.7, Integer, snmpv1 (1)
+radwllMilOduAdmHostsSecurityModel.8, .1.3.6.1.4.1.4458.1000.1.1.12.1.4.8, Integer, snmpv1 (1)
+radwllMilOduAdmHostsSecurityModel.9, .1.3.6.1.4.1.4458.1000.1.1.12.1.4.9, Integer, snmpv1 (1)
+radwllMilOduAdmHostsSecurityModel.10, .1.3.6.1.4.1.4458.1000.1.1.12.1.4.10, Integer, snmpv1 (1)
+radwllMilOduAdmHostsUserName.1, .1.3.6.1.4.1.4458.1000.1.1.12.1.5.1, OctetString, 
+radwllMilOduAdmHostsUserName.2, .1.3.6.1.4.1.4458.1000.1.1.12.1.5.2, OctetString, 
+radwllMilOduAdmHostsUserName.3, .1.3.6.1.4.1.4458.1000.1.1.12.1.5.3, OctetString, 
+radwllMilOduAdmHostsUserName.4, .1.3.6.1.4.1.4458.1000.1.1.12.1.5.4, OctetString, 
+radwllMilOduAdmHostsUserName.5, .1.3.6.1.4.1.4458.1000.1.1.12.1.5.5, OctetString, 
+radwllMilOduAdmHostsUserName.6, .1.3.6.1.4.1.4458.1000.1.1.12.1.5.6, OctetString, 
+radwllMilOduAdmHostsUserName.7, .1.3.6.1.4.1.4458.1000.1.1.12.1.5.7, OctetString, 
+radwllMilOduAdmHostsUserName.8, .1.3.6.1.4.1.4458.1000.1.1.12.1.5.8, OctetString, 
+radwllMilOduAdmHostsUserName.9, .1.3.6.1.4.1.4458.1000.1.1.12.1.5.9, OctetString, 
+radwllMilOduAdmHostsUserName.10, .1.3.6.1.4.1.4458.1000.1.1.12.1.5.10, OctetString, 
+radwllMilOduAdmHostsPassword.1, .1.3.6.1.4.1.4458.1000.1.1.12.1.6.1, OctetString, 
+radwllMilOduAdmHostsPassword.2, .1.3.6.1.4.1.4458.1000.1.1.12.1.6.2, OctetString, 
+radwllMilOduAdmHostsPassword.3, .1.3.6.1.4.1.4458.1000.1.1.12.1.6.3, OctetString, 
+radwllMilOduAdmHostsPassword.4, .1.3.6.1.4.1.4458.1000.1.1.12.1.6.4, OctetString, 
+radwllMilOduAdmHostsPassword.5, .1.3.6.1.4.1.4458.1000.1.1.12.1.6.5, OctetString, 
+radwllMilOduAdmHostsPassword.6, .1.3.6.1.4.1.4458.1000.1.1.12.1.6.6, OctetString, 
+radwllMilOduAdmHostsPassword.7, .1.3.6.1.4.1.4458.1000.1.1.12.1.6.7, OctetString, 
+radwllMilOduAdmHostsPassword.8, .1.3.6.1.4.1.4458.1000.1.1.12.1.6.8, OctetString, 
+radwllMilOduAdmHostsPassword.9, .1.3.6.1.4.1.4458.1000.1.1.12.1.6.9, OctetString, 
+radwllMilOduAdmHostsPassword.10, .1.3.6.1.4.1.4458.1000.1.1.12.1.6.10, OctetString, 
+radwllMilOduBuzzerAdminState.0, .1.3.6.1.4.1.4458.1000.1.1.13.0, Integer, 0
+radwllMilOduProductId.0, .1.3.6.1.4.1.4458.1000.1.1.14.0, OctetString, 2KA/F54/ETSI/10/INT
+radwllMilOduReadCommunity.0, .1.3.6.1.4.1.4458.1000.1.1.15.0, OctetString, **********
+radwllMilOduReadWriteCommunity.0, .1.3.6.1.4.1.4458.1000.1.1.16.0, OctetString, **********
+radwllMilOduTrapCommunity.0, .1.3.6.1.4.1.4458.1000.1.1.17.0, OctetString, public-bru1
+radwllMilOduAdmSnmpAgentVersion.0, .1.3.6.1.4.1.4458.1000.1.1.18.0, Integer, 20
+radwllMilOduAdmRemoteSiteName.0, .1.3.6.1.4.1.4458.1000.1.1.19.0, OctetString, Unknown
+radwllMilOduAdmSnmpAgentMinorVersion.0, .1.3.6.1.4.1.4458.1000.1.1.20.0, Integer, 95
+radwllMilOduAdmLinkPassword.0, .1.3.6.1.4.1.4458.1000.1.1.21.0, OctetString, **********
+radwllMilOduAdmSiteLinkPassword.0, .1.3.6.1.4.1.4458.1000.1.1.22.0, OctetString, **********
+radwllMilOduAdmDefaultPassword.0, .1.3.6.1.4.1.4458.1000.1.1.23.0, Integer, default (1)
+radwllMilOduAdmConnectionType.0, .1.3.6.1.4.1.4458.1000.1.1.24.0, Integer, directConnection (1)
+radwllMilOduAdmBackToFactorySettingsCmd.0, .1.3.6.1.4.1.4458.1000.1.1.25.0, Integer, 0
+radwllMilOduAdmIpParamsCnfg.0, .1.3.6.1.4.1.4458.1000.1.1.26.0, OctetString, 10.0.0.120|255.0.0.0||
+radwllMilOduAdmVlanID.0, .1.3.6.1.4.1.4458.1000.1.1.27.0, Integer, 0
+radwllMilOduAdmVlanPriority.0, .1.3.6.1.4.1.4458.1000.1.1.28.0, Integer, 0
+radwllMilOduAdmSN.0, .1.3.6.1.4.1.4458.1000.1.1.29.0, OctetString, P05600I105A0014E
+radwllMilOduAdmProductName.0, .1.3.6.1.4.1.4458.1000.1.1.30.0, OctetString, Airmux-400LC/ODU/F54E/10M/INT
+radwllMilOduAdmActivationKey.0, .1.3.6.1.4.1.4458.1000.1.1.31.0, OctetString, Activate key succeeded
+radwllMilOduAdmRmtPermittedOduType.0, .1.3.6.1.4.1.4458.1000.1.1.32.0, OctetString, 
+radwllMilOduAdmCpuID.0, .1.3.6.1.4.1.4458.1000.1.1.33.0, Integer, 4
+radwllMilOduSrvMode.0, .1.3.6.1.4.1.4458.1000.1.2.1.0, Integer, installMode  (1)
+radwllMilOduSrvBridging.0, .1.3.6.1.4.1.4458.1000.1.2.3.0, Integer, 1
+radwllMilOduSrvRingLinkMode.0, .1.3.6.1.4.1.4458.1000.1.2.4.1.0, Integer, independentLink  (1)
+radwllMilOduSrvRingTopologySupported.0, .1.3.6.1.4.1.4458.1000.1.2.4.2.0, Integer, supported  (2)
+radwllMilOduSrvRingVlanIdIndex.1, .1.3.6.1.4.1.4458.1000.1.2.4.3.1.1.1, Integer, 1
+radwllMilOduSrvRingVlanIdIndex.2, .1.3.6.1.4.1.4458.1000.1.2.4.3.1.1.2, Integer, 2
+radwllMilOduSrvRingVlanIdIndex.3, .1.3.6.1.4.1.4458.1000.1.2.4.3.1.1.3, Integer, 3
+radwllMilOduSrvRingVlanIdIndex.4, .1.3.6.1.4.1.4458.1000.1.2.4.3.1.1.4, Integer, 4
+radwllMilOduSrvRingVlanId.1, .1.3.6.1.4.1.4458.1000.1.2.4.3.1.2.1, Integer, 0
+radwllMilOduSrvRingVlanId.2, .1.3.6.1.4.1.4458.1000.1.2.4.3.1.2.2, Integer, 0
+radwllMilOduSrvRingVlanId.3, .1.3.6.1.4.1.4458.1000.1.2.4.3.1.2.3, Integer, 0
+radwllMilOduSrvRingVlanId.4, .1.3.6.1.4.1.4458.1000.1.2.4.3.1.2.4, Integer, 0
+radwllMilOduSrvRingEthStatus.0, .1.3.6.1.4.1.4458.1000.1.2.4.4.0, Integer, notApplicable (3)
+radwllMilOduSrvRingMaxAllowedTimeFromLastRpm.0, .1.3.6.1.4.1.4458.1000.1.2.4.5.0, Integer, 100
+radwllMilOduSrvRingWTR.0, .1.3.6.1.4.1.4458.1000.1.2.4.6.0, Integer, 1000
+radwllMilOduSrvQoSMode.0, .1.3.6.1.4.1.4458.1000.1.2.5.1.0, Integer, notActive  (2)
+radwllMilOduSrvQoSConfIndex.1, .1.3.6.1.4.1.4458.1000.1.2.5.2.1.1.1, Integer, 1
+radwllMilOduSrvQoSConfIndex.2, .1.3.6.1.4.1.4458.1000.1.2.5.2.1.1.2, Integer, 2
+radwllMilOduSrvQoSConfIndex.3, .1.3.6.1.4.1.4458.1000.1.2.5.2.1.1.3, Integer, 3
+radwllMilOduSrvQoSConfIndex.4, .1.3.6.1.4.1.4458.1000.1.2.5.2.1.1.4, Integer, 4
+radwllMilOduSrvConfVlanQGroups.1, .1.3.6.1.4.1.4458.1000.1.2.5.2.1.2.1, Integer, 6
+radwllMilOduSrvConfVlanQGroups.2, .1.3.6.1.4.1.4458.1000.1.2.5.2.1.2.2, Integer, 4
+radwllMilOduSrvConfVlanQGroups.3, .1.3.6.1.4.1.4458.1000.1.2.5.2.1.2.3, Integer, 2
+radwllMilOduSrvConfVlanQGroups.4, .1.3.6.1.4.1.4458.1000.1.2.5.2.1.2.4, Integer, 0
+radwllMilOduSrvConfDiffservQGroups.1, .1.3.6.1.4.1.4458.1000.1.2.5.2.1.3.1, Integer, 48
+radwllMilOduSrvConfDiffservQGroups.2, .1.3.6.1.4.1.4458.1000.1.2.5.2.1.3.2, Integer, 32
+radwllMilOduSrvConfDiffservQGroups.3, .1.3.6.1.4.1.4458.1000.1.2.5.2.1.3.3, Integer, 16
+radwllMilOduSrvConfDiffservQGroups.4, .1.3.6.1.4.1.4458.1000.1.2.5.2.1.3.4, Integer, 0
+radwllMilOduSrvConfQueMir.1, .1.3.6.1.4.1.4458.1000.1.2.5.2.1.4.1, Integer, 0
+radwllMilOduSrvConfQueMir.2, .1.3.6.1.4.1.4458.1000.1.2.5.2.1.4.2, Integer, 0
+radwllMilOduSrvConfQueMir.3, .1.3.6.1.4.1.4458.1000.1.2.5.2.1.4.3, Integer, 0
+radwllMilOduSrvConfQueMir.4, .1.3.6.1.4.1.4458.1000.1.2.5.2.1.4.4, Integer, 0
+radwllMilOduSrvConfQueWeight.1, .1.3.6.1.4.1.4458.1000.1.2.5.2.1.5.1, Integer, 15
+radwllMilOduSrvConfQueWeight.2, .1.3.6.1.4.1.4458.1000.1.2.5.2.1.5.2, Integer, 20
+radwllMilOduSrvConfQueWeight.3, .1.3.6.1.4.1.4458.1000.1.2.5.2.1.5.3, Integer, 25
+radwllMilOduSrvConfQueWeight.4, .1.3.6.1.4.1.4458.1000.1.2.5.2.1.5.4, Integer, 40
+radwllMilOduSrvQoSVlanQGroupsSetStr.0, .1.3.6.1.4.1.4458.1000.1.2.5.3.0, OctetString, 6,4,2,0
+radwllMilOduSrvQoSDiffservQGroupsSetStr.0, .1.3.6.1.4.1.4458.1000.1.2.5.4.0, OctetString, 48,32,16,0
+radwllMilOduSrvQoSMaxRTQuePercent.0, .1.3.6.1.4.1.4458.1000.1.2.5.5.0, Integer, 100
+radwllMilOduSrvVlanSupport.0, .1.3.6.1.4.1.4458.1000.1.2.6.1.0, Integer, available (3)
+radwllMilOduSrvVlanIngressMode.0, .1.3.6.1.4.1.4458.1000.1.2.6.2.0, Integer, transparent  (1)
+radwllMilOduSrvVlanEgressMode.0, .1.3.6.1.4.1.4458.1000.1.2.6.3.0, Integer, transparent  (1)
+radwllMilOduSrvEgressTag.0, .1.3.6.1.4.1.4458.1000.1.2.6.4.0, Integer, 0
+radwllMilOduSrvEgressProviderTag.0, .1.3.6.1.4.1.4458.1000.1.2.6.5.0, Integer, 0
+radwllMilOduSrvVlanIngressAllowedVIDs.0, .1.3.6.1.4.1.4458.1000.1.2.6.6.0, OctetString, 0|0|0|0|0|0|0|0|
+radwllMilOduSrvVlanDisable.0, .1.3.6.1.4.1.4458.1000.1.2.6.7.0, Integer, 0
+radwllMilOduEthernetRemainingRate.0, .1.3.6.1.4.1.4458.1000.1.3.1.0, Integer, 0
+radwllMilOduEthernetIfIndex.1, .1.3.6.1.4.1.4458.1000.1.3.2.1.1.1, Integer, 1
+radwllMilOduEthernetIfIndex.2, .1.3.6.1.4.1.4458.1000.1.3.2.1.1.2, Integer, 2
+radwllMilOduEthernetIfIndex.3, .1.3.6.1.4.1.4458.1000.1.3.2.1.1.3, Integer, 3
+radwllMilOduEthernetIfAddress.1, .1.3.6.1.4.1.4458.1000.1.3.2.1.5.1, OctetString, 001567e47534
+radwllMilOduEthernetIfAddress.2, .1.3.6.1.4.1.4458.1000.1.3.2.1.5.2, OctetString, 
+radwllMilOduEthernetIfAddress.3, .1.3.6.1.4.1.4458.1000.1.3.2.1.5.3, OctetString, 
+radwllMilOduEthernetIfAdminStatus.1, .1.3.6.1.4.1.4458.1000.1.3.2.1.6.1, Integer, portAutoSense (1)
+radwllMilOduEthernetIfAdminStatus.2, .1.3.6.1.4.1.4458.1000.1.3.2.1.6.2, Integer, portAutoSense (1)
+radwllMilOduEthernetIfAdminStatus.3, .1.3.6.1.4.1.4458.1000.1.3.2.1.6.3, Integer, portAutoSense (1)
+radwllMilOduEthernetIfAdminStatus.4, .1.3.6.1.4.1.4458.1000.1.3.2.1.6.4, Integer, forceFullDuplex1000Mbps (21)
+radwllMilOduEthernetIfOperStatus.1, .1.3.6.1.4.1.4458.1000.1.3.2.1.7.1, Integer, connectedFullDuplex1000Mbps (21)
+radwllMilOduEthernetIfOperStatus.2, .1.3.6.1.4.1.4458.1000.1.3.2.1.7.2, Integer, unknown (65535)
+radwllMilOduEthernetIfOperStatus.3, .1.3.6.1.4.1.4458.1000.1.3.2.1.7.3, Integer, unknown (65535)
+radwllMilOduEthernetIfOperStatus.4, .1.3.6.1.4.1.4458.1000.1.3.2.1.7.4, Integer, unknown (65535)
+radwllMilOduEthernetIfFailAction.1, .1.3.6.1.4.1.4458.1000.1.3.2.1.8.1, Integer, faNoAction (1)
+radwllMilOduEthernetIfFailAction.2, .1.3.6.1.4.1.4458.1000.1.3.2.1.8.2, Integer, faNoAction (1)
+radwllMilOduEthernetIfFailAction.3, .1.3.6.1.4.1.4458.1000.1.3.2.1.8.3, Integer, faNoAction (1)
+radwllMilOduEthernetIfFailAction.4, .1.3.6.1.4.1.4458.1000.1.3.2.1.8.4, Integer, faNoAction (1)
+radwllMilOduEthernetNumOfPorts.0, .1.3.6.1.4.1.4458.1000.1.3.3.0, Integer, 4
+radwllMilOduEthernetGbeSupported.0, .1.3.6.1.4.1.4458.1000.1.3.4.0, Integer, supported (2)
+radwllMilOduBridgeTpPortInFrames.0, .1.3.6.1.4.1.4458.1000.1.4.4.3.1.3.0, Counter32, 17691
+radwllMilOduBridgeTpPortOutFrames.0, .1.3.6.1.4.1.4458.1000.1.4.4.3.1.4.0, Counter32, 11912
+radwllMilOduBridgeTpPortInBytes.0, .1.3.6.1.4.1.4458.1000.1.4.4.3.1.101.0, Counter32, 5171007
+radwllMilOduBridgeTpPortOutBytes.0, .1.3.6.1.4.1.4458.1000.1.4.4.3.1.102.0, Counter32, 5009898
+radwllMilOduBridgeTpMode.0, .1.3.6.1.4.1.4458.1000.1.4.4.101.0, Integer, 0
+radwllMilOduBridgeConfigMode.0, .1.3.6.1.4.1.4458.1000.1.4.4.102.0, Integer, disable  (2)
+radwllMilOduAirFreq.0, .1.3.6.1.4.1.4458.1000.1.5.1.0, Integer, 5500
+radwllMilOduAirDesiredRate.0, .1.3.6.1.4.1.4458.1000.1.5.2.0, Integer, 0
+radwllMilOduAirSSID.0, .1.3.6.1.4.1.4458.1000.1.5.3.0, OctetString, SELUCREH
+radwllMilOduAirTxPower.0, .1.3.6.1.4.1.4458.1000.1.5.4.0, Integer, 4
+radwllMilOduAirSesState.0, .1.3.6.1.4.1.4458.1000.1.5.5.0, Integer, transmitting  (7)
+radwllMilOduAirMstrSlv.0, .1.3.6.1.4.1.4458.1000.1.5.6.0, Integer, 1
+radwllMilOduAirResync.0, .1.3.6.1.4.1.4458.1000.1.5.8.0, Integer, 0
+radwllMilOduAirRxPower.0, .1.3.6.1.4.1.4458.1000.1.5.9.1.0, Integer, 0
+radwllMilOduAirTotalFrames.0, .1.3.6.1.4.1.4458.1000.1.5.9.2.0, Counter32, 38348
+radwllMilOduAirBadFrames.0, .1.3.6.1.4.1.4458.1000.1.5.9.3.0, Counter32, 38351
+radwllMilOduAirCurrentRate.0, .1.3.6.1.4.1.4458.1000.1.5.9.4.0, Integer, 0
+radwllMilOduAirCurrentRateIdx.0, .1.3.6.1.4.1.4458.1000.1.5.9.5.0, Integer, 128
+radwllMilOduAirTxPower36.0, .1.3.6.1.4.1.4458.1000.1.5.10.0, Integer, 12
+radwllMilOduAirTxPower48.0, .1.3.6.1.4.1.4458.1000.1.5.11.0, Integer, 0
+radwllMilOduAirCurrentTxPower.0, .1.3.6.1.4.1.4458.1000.1.5.12.0, Integer, 4
+radwllMilOduAirMinFrequency.0, .1.3.6.1.4.1.4458.1000.1.5.13.0, Integer, 5475
+radwllMilOduAirMaxFrequency.0, .1.3.6.1.4.1.4458.1000.1.5.14.0, Integer, 5720
+radwllMilOduAirFreqResolution.0, .1.3.6.1.4.1.4458.1000.1.5.15.0, Integer, 5
+radwllMilOduAirCurrentFreq.0, .1.3.6.1.4.1.4458.1000.1.5.16.0, Integer, 5500
+radwllMilOduAirNumberOfChannels.0, .1.3.6.1.4.1.4458.1000.1.5.17.0, Integer, 50
+radwllMilOduAirChannelsIndex.1, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.1, Integer, 1
+radwllMilOduAirChannelsIndex.2, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.2, Integer, 2
+radwllMilOduAirChannelsIndex.3, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.3, Integer, 3
+radwllMilOduAirChannelsIndex.4, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.4, Integer, 4
+radwllMilOduAirChannelsIndex.5, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.5, Integer, 5
+radwllMilOduAirChannelsIndex.6, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.6, Integer, 6
+radwllMilOduAirChannelsIndex.7, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.7, Integer, 7
+radwllMilOduAirChannelsIndex.8, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.8, Integer, 8
+radwllMilOduAirChannelsIndex.9, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.9, Integer, 9
+radwllMilOduAirChannelsIndex.10, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.10, Integer, 10
+radwllMilOduAirChannelsIndex.11, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.11, Integer, 11
+radwllMilOduAirChannelsIndex.12, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.12, Integer, 12
+radwllMilOduAirChannelsIndex.13, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.13, Integer, 13
+radwllMilOduAirChannelsIndex.14, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.14, Integer, 14
+radwllMilOduAirChannelsIndex.15, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.15, Integer, 15
+radwllMilOduAirChannelsIndex.16, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.16, Integer, 16
+radwllMilOduAirChannelsIndex.17, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.17, Integer, 17
+radwllMilOduAirChannelsIndex.18, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.18, Integer, 18
+radwllMilOduAirChannelsIndex.19, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.19, Integer, 19
+radwllMilOduAirChannelsIndex.20, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.20, Integer, 20
+radwllMilOduAirChannelsIndex.21, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.21, Integer, 21
+radwllMilOduAirChannelsIndex.22, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.22, Integer, 22
+radwllMilOduAirChannelsIndex.23, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.23, Integer, 23
+radwllMilOduAirChannelsIndex.24, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.24, Integer, 24
+radwllMilOduAirChannelsIndex.25, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.25, Integer, 25
+radwllMilOduAirChannelsIndex.26, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.26, Integer, 26
+radwllMilOduAirChannelsIndex.27, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.27, Integer, 27
+radwllMilOduAirChannelsIndex.28, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.28, Integer, 28
+radwllMilOduAirChannelsIndex.29, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.29, Integer, 29
+radwllMilOduAirChannelsIndex.30, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.30, Integer, 30
+radwllMilOduAirChannelsIndex.31, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.31, Integer, 31
+radwllMilOduAirChannelsIndex.32, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.32, Integer, 32
+radwllMilOduAirChannelsIndex.33, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.33, Integer, 33
+radwllMilOduAirChannelsIndex.34, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.34, Integer, 34
+radwllMilOduAirChannelsIndex.35, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.35, Integer, 35
+radwllMilOduAirChannelsIndex.36, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.36, Integer, 36
+radwllMilOduAirChannelsIndex.37, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.37, Integer, 37
+radwllMilOduAirChannelsIndex.38, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.38, Integer, 38
+radwllMilOduAirChannelsIndex.39, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.39, Integer, 39
+radwllMilOduAirChannelsIndex.40, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.40, Integer, 40
+radwllMilOduAirChannelsIndex.41, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.41, Integer, 41
+radwllMilOduAirChannelsIndex.42, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.42, Integer, 42
+radwllMilOduAirChannelsIndex.43, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.43, Integer, 43
+radwllMilOduAirChannelsIndex.44, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.44, Integer, 44
+radwllMilOduAirChannelsIndex.45, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.45, Integer, 45
+radwllMilOduAirChannelsIndex.46, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.46, Integer, 46
+radwllMilOduAirChannelsIndex.47, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.47, Integer, 47
+radwllMilOduAirChannelsIndex.48, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.48, Integer, 48
+radwllMilOduAirChannelsIndex.49, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.49, Integer, 49
+radwllMilOduAirChannelsIndex.50, .1.3.6.1.4.1.4458.1000.1.5.18.1.1.50, Integer, 50
+radwllMilOduAirChannelsFrequency.1, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.1, Integer, 5475
+radwllMilOduAirChannelsFrequency.2, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.2, Integer, 5480
+radwllMilOduAirChannelsFrequency.3, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.3, Integer, 5485
+radwllMilOduAirChannelsFrequency.4, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.4, Integer, 5490
+radwllMilOduAirChannelsFrequency.5, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.5, Integer, 5495
+radwllMilOduAirChannelsFrequency.6, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.6, Integer, 5500
+radwllMilOduAirChannelsFrequency.7, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.7, Integer, 5505
+radwllMilOduAirChannelsFrequency.8, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.8, Integer, 5510
+radwllMilOduAirChannelsFrequency.9, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.9, Integer, 5515
+radwllMilOduAirChannelsFrequency.10, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.10, Integer, 5520
+radwllMilOduAirChannelsFrequency.11, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.11, Integer, 5525
+radwllMilOduAirChannelsFrequency.12, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.12, Integer, 5530
+radwllMilOduAirChannelsFrequency.13, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.13, Integer, 5535
+radwllMilOduAirChannelsFrequency.14, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.14, Integer, 5540
+radwllMilOduAirChannelsFrequency.15, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.15, Integer, 5545
+radwllMilOduAirChannelsFrequency.16, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.16, Integer, 5550
+radwllMilOduAirChannelsFrequency.17, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.17, Integer, 5555
+radwllMilOduAirChannelsFrequency.18, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.18, Integer, 5560
+radwllMilOduAirChannelsFrequency.19, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.19, Integer, 5565
+radwllMilOduAirChannelsFrequency.20, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.20, Integer, 5570
+radwllMilOduAirChannelsFrequency.21, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.21, Integer, 5575
+radwllMilOduAirChannelsFrequency.22, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.22, Integer, 5580
+radwllMilOduAirChannelsFrequency.23, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.23, Integer, 5585
+radwllMilOduAirChannelsFrequency.24, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.24, Integer, 5590
+radwllMilOduAirChannelsFrequency.25, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.25, Integer, 5595
+radwllMilOduAirChannelsFrequency.26, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.26, Integer, 5600
+radwllMilOduAirChannelsFrequency.27, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.27, Integer, 5605
+radwllMilOduAirChannelsFrequency.28, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.28, Integer, 5610
+radwllMilOduAirChannelsFrequency.29, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.29, Integer, 5615
+radwllMilOduAirChannelsFrequency.30, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.30, Integer, 5620
+radwllMilOduAirChannelsFrequency.31, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.31, Integer, 5625
+radwllMilOduAirChannelsFrequency.32, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.32, Integer, 5630
+radwllMilOduAirChannelsFrequency.33, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.33, Integer, 5635
+radwllMilOduAirChannelsFrequency.34, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.34, Integer, 5640
+radwllMilOduAirChannelsFrequency.35, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.35, Integer, 5645
+radwllMilOduAirChannelsFrequency.36, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.36, Integer, 5650
+radwllMilOduAirChannelsFrequency.37, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.37, Integer, 5655
+radwllMilOduAirChannelsFrequency.38, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.38, Integer, 5660
+radwllMilOduAirChannelsFrequency.39, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.39, Integer, 5665
+radwllMilOduAirChannelsFrequency.40, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.40, Integer, 5670
+radwllMilOduAirChannelsFrequency.41, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.41, Integer, 5675
+radwllMilOduAirChannelsFrequency.42, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.42, Integer, 5680
+radwllMilOduAirChannelsFrequency.43, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.43, Integer, 5685
+radwllMilOduAirChannelsFrequency.44, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.44, Integer, 5690
+radwllMilOduAirChannelsFrequency.45, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.45, Integer, 5695
+radwllMilOduAirChannelsFrequency.46, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.46, Integer, 5700
+radwllMilOduAirChannelsFrequency.47, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.47, Integer, 5705
+radwllMilOduAirChannelsFrequency.48, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.48, Integer, 5710
+radwllMilOduAirChannelsFrequency.49, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.49, Integer, 5715
+radwllMilOduAirChannelsFrequency.50, .1.3.6.1.4.1.4458.1000.1.5.18.1.2.50, Integer, 5720
+radwllMilOduAirChannelsOperState.1, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.1, Integer, 1
+radwllMilOduAirChannelsOperState.2, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.2, Integer, 1
+radwllMilOduAirChannelsOperState.3, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.3, Integer, 1
+radwllMilOduAirChannelsOperState.4, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.4, Integer, 1
+radwllMilOduAirChannelsOperState.5, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.5, Integer, 1
+radwllMilOduAirChannelsOperState.6, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.6, Integer, 1
+radwllMilOduAirChannelsOperState.7, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.7, Integer, 1
+radwllMilOduAirChannelsOperState.8, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.8, Integer, 1
+radwllMilOduAirChannelsOperState.9, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.9, Integer, 1
+radwllMilOduAirChannelsOperState.10, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.10, Integer, 1
+radwllMilOduAirChannelsOperState.11, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.11, Integer, 1
+radwllMilOduAirChannelsOperState.12, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.12, Integer, 1
+radwllMilOduAirChannelsOperState.13, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.13, Integer, 1
+radwllMilOduAirChannelsOperState.14, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.14, Integer, 1
+radwllMilOduAirChannelsOperState.15, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.15, Integer, 1
+radwllMilOduAirChannelsOperState.16, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.16, Integer, 1
+radwllMilOduAirChannelsOperState.17, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.17, Integer, 1
+radwllMilOduAirChannelsOperState.18, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.18, Integer, 1
+radwllMilOduAirChannelsOperState.19, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.19, Integer, 1
+radwllMilOduAirChannelsOperState.20, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.20, Integer, 1
+radwllMilOduAirChannelsOperState.21, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.21, Integer, 1
+radwllMilOduAirChannelsOperState.22, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.22, Integer, 1
+radwllMilOduAirChannelsOperState.23, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.23, Integer, 1
+radwllMilOduAirChannelsOperState.24, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.24, Integer, 1
+radwllMilOduAirChannelsOperState.25, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.25, Integer, 1
+radwllMilOduAirChannelsOperState.26, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.26, Integer, 1
+radwllMilOduAirChannelsOperState.27, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.27, Integer, 1
+radwllMilOduAirChannelsOperState.28, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.28, Integer, 1
+radwllMilOduAirChannelsOperState.29, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.29, Integer, 1
+radwllMilOduAirChannelsOperState.30, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.30, Integer, 1
+radwllMilOduAirChannelsOperState.31, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.31, Integer, 1
+radwllMilOduAirChannelsOperState.32, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.32, Integer, 1
+radwllMilOduAirChannelsOperState.33, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.33, Integer, 1
+radwllMilOduAirChannelsOperState.34, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.34, Integer, 1
+radwllMilOduAirChannelsOperState.35, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.35, Integer, 1
+radwllMilOduAirChannelsOperState.36, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.36, Integer, 1
+radwllMilOduAirChannelsOperState.37, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.37, Integer, 1
+radwllMilOduAirChannelsOperState.38, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.38, Integer, 1
+radwllMilOduAirChannelsOperState.39, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.39, Integer, 1
+radwllMilOduAirChannelsOperState.40, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.40, Integer, 1
+radwllMilOduAirChannelsOperState.41, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.41, Integer, 1
+radwllMilOduAirChannelsOperState.42, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.42, Integer, 1
+radwllMilOduAirChannelsOperState.43, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.43, Integer, 1
+radwllMilOduAirChannelsOperState.44, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.44, Integer, 1
+radwllMilOduAirChannelsOperState.45, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.45, Integer, 1
+radwllMilOduAirChannelsOperState.46, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.46, Integer, 1
+radwllMilOduAirChannelsOperState.47, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.47, Integer, 1
+radwllMilOduAirChannelsOperState.48, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.48, Integer, 1
+radwllMilOduAirChannelsOperState.49, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.49, Integer, 1
+radwllMilOduAirChannelsOperState.50, .1.3.6.1.4.1.4458.1000.1.5.18.1.3.50, Integer, 1
+radwllMilOduAirChannelsAvail.1, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.1, Integer, 0
+radwllMilOduAirChannelsAvail.2, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.2, Integer, 1
+radwllMilOduAirChannelsAvail.3, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.3, Integer, 1
+radwllMilOduAirChannelsAvail.4, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.4, Integer, 1
+radwllMilOduAirChannelsAvail.5, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.5, Integer, 1
+radwllMilOduAirChannelsAvail.6, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.6, Integer, 1
+radwllMilOduAirChannelsAvail.7, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.7, Integer, 1
+radwllMilOduAirChannelsAvail.8, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.8, Integer, 1
+radwllMilOduAirChannelsAvail.9, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.9, Integer, 1
+radwllMilOduAirChannelsAvail.10, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.10, Integer, 1
+radwllMilOduAirChannelsAvail.11, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.11, Integer, 1
+radwllMilOduAirChannelsAvail.12, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.12, Integer, 1
+radwllMilOduAirChannelsAvail.13, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.13, Integer, 1
+radwllMilOduAirChannelsAvail.14, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.14, Integer, 1
+radwllMilOduAirChannelsAvail.15, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.15, Integer, 1
+radwllMilOduAirChannelsAvail.16, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.16, Integer, 1
+radwllMilOduAirChannelsAvail.17, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.17, Integer, 1
+radwllMilOduAirChannelsAvail.18, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.18, Integer, 1
+radwllMilOduAirChannelsAvail.19, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.19, Integer, 1
+radwllMilOduAirChannelsAvail.20, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.20, Integer, 1
+radwllMilOduAirChannelsAvail.21, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.21, Integer, 1
+radwllMilOduAirChannelsAvail.22, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.22, Integer, 1
+radwllMilOduAirChannelsAvail.23, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.23, Integer, 1
+radwllMilOduAirChannelsAvail.24, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.24, Integer, 1
+radwllMilOduAirChannelsAvail.25, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.25, Integer, 1
+radwllMilOduAirChannelsAvail.26, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.26, Integer, 1
+radwllMilOduAirChannelsAvail.27, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.27, Integer, 1
+radwllMilOduAirChannelsAvail.28, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.28, Integer, 1
+radwllMilOduAirChannelsAvail.29, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.29, Integer, 1
+radwllMilOduAirChannelsAvail.30, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.30, Integer, 1
+radwllMilOduAirChannelsAvail.31, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.31, Integer, 1
+radwllMilOduAirChannelsAvail.32, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.32, Integer, 1
+radwllMilOduAirChannelsAvail.33, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.33, Integer, 1
+radwllMilOduAirChannelsAvail.34, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.34, Integer, 1
+radwllMilOduAirChannelsAvail.35, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.35, Integer, 1
+radwllMilOduAirChannelsAvail.36, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.36, Integer, 1
+radwllMilOduAirChannelsAvail.37, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.37, Integer, 1
+radwllMilOduAirChannelsAvail.38, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.38, Integer, 1
+radwllMilOduAirChannelsAvail.39, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.39, Integer, 1
+radwllMilOduAirChannelsAvail.40, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.40, Integer, 1
+radwllMilOduAirChannelsAvail.41, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.41, Integer, 1
+radwllMilOduAirChannelsAvail.42, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.42, Integer, 1
+radwllMilOduAirChannelsAvail.43, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.43, Integer, 1
+radwllMilOduAirChannelsAvail.44, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.44, Integer, 1
+radwllMilOduAirChannelsAvail.45, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.45, Integer, 1
+radwllMilOduAirChannelsAvail.46, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.46, Integer, 1
+radwllMilOduAirChannelsAvail.47, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.47, Integer, 1
+radwllMilOduAirChannelsAvail.48, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.48, Integer, 1
+radwllMilOduAirChannelsAvail.49, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.49, Integer, 1
+radwllMilOduAirChannelsAvail.50, .1.3.6.1.4.1.4458.1000.1.5.18.1.4.50, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.1, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.1, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.2, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.2, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.3, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.3, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.4, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.4, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.5, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.5, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.6, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.6, Integer, 1
+radwllMilOduAirChannelsDefaultFreq.7, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.7, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.8, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.8, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.9, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.9, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.10, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.10, Integer, 1
+radwllMilOduAirChannelsDefaultFreq.11, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.11, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.12, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.12, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.13, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.13, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.14, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.14, Integer, 1
+radwllMilOduAirChannelsDefaultFreq.15, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.15, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.16, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.16, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.17, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.17, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.18, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.18, Integer, 1
+radwllMilOduAirChannelsDefaultFreq.19, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.19, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.20, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.20, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.21, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.21, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.22, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.22, Integer, 1
+radwllMilOduAirChannelsDefaultFreq.23, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.23, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.24, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.24, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.25, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.25, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.26, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.26, Integer, 1
+radwllMilOduAirChannelsDefaultFreq.27, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.27, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.28, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.28, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.29, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.29, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.30, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.30, Integer, 1
+radwllMilOduAirChannelsDefaultFreq.31, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.31, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.32, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.32, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.33, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.33, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.34, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.34, Integer, 1
+radwllMilOduAirChannelsDefaultFreq.35, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.35, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.36, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.36, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.37, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.37, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.38, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.38, Integer, 1
+radwllMilOduAirChannelsDefaultFreq.39, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.39, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.40, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.40, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.41, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.41, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.42, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.42, Integer, 1
+radwllMilOduAirChannelsDefaultFreq.43, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.43, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.44, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.44, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.45, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.45, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.46, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.46, Integer, 1
+radwllMilOduAirChannelsDefaultFreq.47, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.47, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.48, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.48, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.49, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.49, Integer, 0
+radwllMilOduAirChannelsDefaultFreq.50, .1.3.6.1.4.1.4458.1000.1.5.18.1.5.50, Integer, 0
+radwllMilOduAirDfsState.0, .1.3.6.1.4.1.4458.1000.1.5.19.0, Integer, 1
+radwllMilOduAirAutoChannelSelectionState.0, .1.3.6.1.4.1.4458.1000.1.5.20.0, Integer, 1
+radwllMilOduAirEnableTxPower.0, .1.3.6.1.4.1.4458.1000.1.5.21.0, Integer, enabled  (1)
+radwllMilOduAirMinTxPower.0, .1.3.6.1.4.1.4458.1000.1.5.22.0, Integer, -8
+radwllMilOduAirMaxTxPowerIndex.128, .1.3.6.1.4.1.4458.1000.1.5.23.1.1.128, Integer, 128
+radwllMilOduAirMaxTxPowerIndex.129, .1.3.6.1.4.1.4458.1000.1.5.23.1.1.129, Integer, 129
+radwllMilOduAirMaxTxPowerIndex.130, .1.3.6.1.4.1.4458.1000.1.5.23.1.1.130, Integer, 130
+radwllMilOduAirMaxTxPowerIndex.131, .1.3.6.1.4.1.4458.1000.1.5.23.1.1.131, Integer, 131
+radwllMilOduAirMaxTxPowerIndex.132, .1.3.6.1.4.1.4458.1000.1.5.23.1.1.132, Integer, 132
+radwllMilOduAirMaxTxPowerIndex.133, .1.3.6.1.4.1.4458.1000.1.5.23.1.1.133, Integer, 133
+radwllMilOduAirMaxTxPowerIndex.134, .1.3.6.1.4.1.4458.1000.1.5.23.1.1.134, Integer, 134
+radwllMilOduAirMaxTxPowerIndex.135, .1.3.6.1.4.1.4458.1000.1.5.23.1.1.135, Integer, 135
+radwllMilOduAirMaxTxPowerIndex.136, .1.3.6.1.4.1.4458.1000.1.5.23.1.1.136, Integer, 136
+radwllMilOduAirMaxTxPowerIndex.137, .1.3.6.1.4.1.4458.1000.1.5.23.1.1.137, Integer, 137
+radwllMilOduAirMaxTxPowerIndex.138, .1.3.6.1.4.1.4458.1000.1.5.23.1.1.138, Integer, 138
+radwllMilOduAirMaxTxPowerIndex.139, .1.3.6.1.4.1.4458.1000.1.5.23.1.1.139, Integer, 139
+radwllMilOduAirMaxTxPowerIndex.140, .1.3.6.1.4.1.4458.1000.1.5.23.1.1.140, Integer, 140
+radwllMilOduAirMaxTxPowerIndex.141, .1.3.6.1.4.1.4458.1000.1.5.23.1.1.141, Integer, 141
+radwllMilOduAirMaxTxPowerIndex.142, .1.3.6.1.4.1.4458.1000.1.5.23.1.1.142, Integer, 142
+radwllMilOduAirMaxTxPowerIndex.143, .1.3.6.1.4.1.4458.1000.1.5.23.1.1.143, Integer, 143
+radwllMilOduAirMaxTxPower.128, .1.3.6.1.4.1.4458.1000.1.5.23.1.2.128, Integer, 25
+radwllMilOduAirMaxTxPower.129, .1.3.6.1.4.1.4458.1000.1.5.23.1.2.129, Integer, 25
+radwllMilOduAirMaxTxPower.130, .1.3.6.1.4.1.4458.1000.1.5.23.1.2.130, Integer, 25
+radwllMilOduAirMaxTxPower.131, .1.3.6.1.4.1.4458.1000.1.5.23.1.2.131, Integer, 24
+radwllMilOduAirMaxTxPower.132, .1.3.6.1.4.1.4458.1000.1.5.23.1.2.132, Integer, 21
+radwllMilOduAirMaxTxPower.133, .1.3.6.1.4.1.4458.1000.1.5.23.1.2.133, Integer, 19
+radwllMilOduAirMaxTxPower.134, .1.3.6.1.4.1.4458.1000.1.5.23.1.2.134, Integer, 18
+radwllMilOduAirMaxTxPower.135, .1.3.6.1.4.1.4458.1000.1.5.23.1.2.135, Integer, 18
+radwllMilOduAirMaxTxPower.136, .1.3.6.1.4.1.4458.1000.1.5.23.1.2.136, Integer, 25
+radwllMilOduAirMaxTxPower.137, .1.3.6.1.4.1.4458.1000.1.5.23.1.2.137, Integer, 25
+radwllMilOduAirMaxTxPower.138, .1.3.6.1.4.1.4458.1000.1.5.23.1.2.138, Integer, 25
+radwllMilOduAirMaxTxPower.139, .1.3.6.1.4.1.4458.1000.1.5.23.1.2.139, Integer, 24
+radwllMilOduAirMaxTxPower.140, .1.3.6.1.4.1.4458.1000.1.5.23.1.2.140, Integer, 21
+radwllMilOduAirMaxTxPower.141, .1.3.6.1.4.1.4458.1000.1.5.23.1.2.141, Integer, 19
+radwllMilOduAirMaxTxPower.142, .1.3.6.1.4.1.4458.1000.1.5.23.1.2.142, Integer, 18
+radwllMilOduAirMaxTxPower.143, .1.3.6.1.4.1.4458.1000.1.5.23.1.2.143, Integer, 18
+radwllMilOduAirChannelBandwidth.0, .1.3.6.1.4.1.4458.1000.1.5.24.0, Integer, 20000
+radwllMilOduAirChannelBWIndex.1, .1.3.6.1.4.1.4458.1000.1.5.25.1.1.1, Integer, channelBW5MHz (1)
+radwllMilOduAirChannelBWIndex.2, .1.3.6.1.4.1.4458.1000.1.5.25.1.1.2, Integer, channelBW10MHz (2)
+radwllMilOduAirChannelBWIndex.3, .1.3.6.1.4.1.4458.1000.1.5.25.1.1.3, Integer, channelBW20MHz (3)
+radwllMilOduAirChannelBWIndex.4, .1.3.6.1.4.1.4458.1000.1.5.25.1.1.4, Integer, channelBW40MHz (4)
+radwllMilOduAirChannelBWIndex.5, .1.3.6.1.4.1.4458.1000.1.5.25.1.1.5, Integer, channelBW80MHz (5)
+radwllMilOduAirChannelBWIndex.6, .1.3.6.1.4.1.4458.1000.1.5.25.1.1.6, Integer, channelBW7MHz (6)
+radwllMilOduAirChannelBWAvail.1, .1.3.6.1.4.1.4458.1000.1.5.25.1.2.1, Integer, supportedWithACS (3)
+radwllMilOduAirChannelBWAvail.2, .1.3.6.1.4.1.4458.1000.1.5.25.1.2.2, Integer, supportedWithACS (3)
+radwllMilOduAirChannelBWAvail.3, .1.3.6.1.4.1.4458.1000.1.5.25.1.2.3, Integer, supportedWithACS (3)
+radwllMilOduAirChannelBWAvail.4, .1.3.6.1.4.1.4458.1000.1.5.25.1.2.4, Integer, notSupported (1)
+radwllMilOduAirChannelBWAvail.5, .1.3.6.1.4.1.4458.1000.1.5.25.1.2.5, Integer, 0
+radwllMilOduAirChannelBWAvail.6, .1.3.6.1.4.1.4458.1000.1.5.25.1.2.6, Integer, 0
+radwllMilOduAirChannelsAdminState.1, .1.3.6.1.4.1.4458.1000.1.5.25.1.3.1, OctetString, 11111111111111111111111111111111111111111111111111
+radwllMilOduAirChannelsAdminState.2, .1.3.6.1.4.1.4458.1000.1.5.25.1.3.2, OctetString, 01111111111111111111111111111111111111111111111110
+radwllMilOduAirChannelsAdminState.3, .1.3.6.1.4.1.4458.1000.1.5.25.1.3.3, OctetString, 01111111111111111111111111111111111111111111111110
+radwllMilOduAirChannelsAdminState.4, .1.3.6.1.4.1.4458.1000.1.5.25.1.3.4, OctetString, 00011111111111111111111111111111111111111111111000
+radwllMilOduAirChannelsAdminState.5, .1.3.6.1.4.1.4458.1000.1.5.25.1.3.5, OctetString, 11111111111111111111111111111111111111111111111111
+
+
+
+
+
+OID garder
+
+Name, OID, Type, Value
+sysUpTime.0, .1.3.6.1.2.1.1.3.0, TimeTicks, 313 hours 17 minutes 2 seconds (112782200)
+sysName.0, .1.3.6.1.2.1.1.5.0, OctetString, ANT_554
+sysLocation.0, .1.3.6.1.2.1.1.6.0, OctetString, VS 004
+ifPhysAddress.1, .1.3.6.1.2.1.2.2.1.6.1, OctetString, 00-15-67-E4-83-88
+ifAdminStatus.1, .1.3.6.1.2.1.2.2.1.7.1, Integer, up (1)
+ifInErrors.1, .1.3.6.1.2.1.2.2.1.14.1, Counter32, 216
+
+Name, OID, Type, Value
+radwllMilOduAdmHwRev.0, .1.3.6.1.4.1.4458.1000.1.1.2.0, OctetString, 4
+radwllMilOduAdmSwRev.0, .1.3.6.1.4.1.4458.1000.1.1.3.0, OctetString, 3.4.00_b3425_Feb  5 2013
+radwllMilOduTrapCommunity.0, .1.3.6.1.4.1.4458.1000.1.1.17.0, OctetString, public-bru1
+radwllMilOduAdmSN.0, .1.3.6.1.4.1.4458.1000.1.1.29.0, OctetString, P05910I205A0002C
+radwllMilOduAdmProductName.0, .1.3.6.1.4.1.4458.1000.1.1.30.0, OctetString, Airmux-5000/BS/F54E/25M/INT
+
+Name, OID, Type, Value
+radwllMilOduAirFreq.0, .1.3.6.1.4.1.4458.1000.1.5.1.0, Integer, 5780
+radwllMilOduAirSSID.0, .1.3.6.1.4.1.4458.1000.1.5.3.0, OctetString, 0554CITEOS
+radwllMilOduAirTxPower.0, .1.3.6.1.4.1.4458.1000.1.5.4.0, Integer, 25
+radwllMilOduAirRxPower.0, .1.3.6.1.4.1.4458.1000.1.5.9.1.0, Integer, -120
+radwllMilOduAirAntennaGain.0, .1.3.6.1.4.1.4458.1000.1.5.42.0, Integer, 130
+radwllMilOduAirMaxEIRP.0, .1.3.6.1.4.1.4458.1000.1.5.46.0, Integer, 36
+
 
 hots_template{
 	name: "OS-AirmuxRAD-SNMP-Custom",
@@ -405,20 +974,6 @@ hots_template{
 		name: "OS-Radwin-SNMP-radwllMilOduAirSSID-custome",
 		template: base-check-snmp,
 		OID:  radwllMilOduAirSSID,
-
-	},
-	{
-		alias: "radwllMilOduAirHssHSMIPAddress",
-		name: "OS-Radwin-SNMP--custome",
-		template: base-check-snmp,
-		OID:  1.3.6.1.4.1.4458.1000.1.5.40.3,
-
-	},
-	{
-		alias: "radwllMilHsuEthernetPoEEquVoltage",
-		name: "OS-Radwin-SNMP--custome",
-		template: base-check-snmp,
-		OID:  .1.3.6.1.4.1.4458.1000.4.3.1.4,
 
 	},
 	{
