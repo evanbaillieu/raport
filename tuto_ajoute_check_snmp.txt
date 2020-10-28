@@ -346,16 +346,16 @@ hots_template{
 
 	},
 	{
-		alias: "check-snmp-stat-contime",
-		name: "OS-Airos-SNMP-Stat-ConnTime-custome",
-		template: OS-Airos-snmp,
-		OID:  .1.3.6.1.4.1.41112.1.4.7.1.15.1,
+		alias: "radwllMilOduAdmShutdownTimer",
+		name: "OS-AirmuxRAD-SNMP-Stat-ConnTime-custome",
+		template: OS-airos-snmp,
+		OID:  1.3.6.1.4.1.4458.1000.1.1.42,
 
 	},
 	{
 		alias: "check-snmp-stat-noise-floor",
-		name: "OS-Airos-SNMP-Stat-Noise-Floor-custome",
-		template: OS-Airos-snmp,
+		name: "OS-airos-SNMP-Stat-Noise-Floor-custome",
+		template: OS-airos-snmp,
 		OID:  .1.3.6.1.4.1.41112.1.4.5.1.8.1,
 
 	},
@@ -369,14 +369,14 @@ hots_template{
 	{
 		alias: "radwllMilOduAdmWifiSecurityType",
 		name: "OS-AirmuxRAD-SNMP-Security-custome",
-		template: OS-Airos-snmp,
+		template: OS-airos-snmp,
 		OID:  .1.3.6.1.4.1.4458.1000.1.1.51.4,
 
 	},
 	{
 		alias: "check-snmp-stat-signal",
-		name: "OS-Airos-SNMP-Stat-Signal-custome",
-		template: OS-Airos-snmp,
+		name: "OS-airos-SNMP-Stat-Signal-custome",
+		template: OS-airos-snmp,
 		OID:  .1.3.6.1.4.1.41112.1.4.5.1.5.1,
 
 	},
@@ -389,9 +389,9 @@ hots_template{
 	},
 	{
 		alias: "check-snmp-sys-name",
-		name: "OS-Airos-SNMP-Sys-Name-custome",
-		template: OS-Airos-snmp,
-		OID:  .1.3.6.1.2.1.1.5.0,
+		name: "OS-AirmuxRAD-SNMP-Sys-Name-custome",
+		template: OS-airos-snmp,
+		OID:  .1.3.6.1.2.1.1.5,
 
 	},
 	{
@@ -425,14 +425,14 @@ hots_template{
 	{
 		alias: "check-snmp-sys-up-time",
 		name: "OS-AirmuxRAD-SNMP-Sys-Up-Time-custome",
-		template: OS-Airos-snmp,
+		template: OS-AirmuxRAD-snmp,
 		OID:   .1.3.6.1.2.1.1.3,
 
 	},
 	{
 		alias: "check-snmp-sysDescr",
 		name: "OS-AirmuxRAD-SNMP-sysDescr-custome",
-		template: OS-Airos-snmp,
+		template: OS-airos-snmp,
 		OID:   .1.3.6.1.2.1.1.1,
 
 	}],
